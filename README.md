@@ -1,10 +1,11 @@
 # Dynamic Integration of Preference and Knowledge Status for Knowledge Concept Recommendation (DISKRec)
 
-This repository provides the official implementation for our paper "**Dynamic Integration of Preference and Knowledge Status for Knowledge Concept Recommendation**", published in [Neurocomputing](\url{https://www.sciencedirect.com/science/article/pii/S0925231225024580}). 
+This repository provides the official implementation for our paper "**Dynamic Integration of Preference and Knowledge Status for Knowledge Concept Recommendation**", published in [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231225024580). 
 
 DISKRec is a dynamic knowledge concept recommendation model that jointly models learners' preference and knowledge status from learning and assessment behaviors to better capture their evolving learning motivations.
 
-![(a) The overall architecture of DISKRec, which consists of two modules: Status Disentanglement using Dual-DGNNs, Status Integration and Recommendation. (b) The steps in Dual-DGNNs take the initial graph status and a batch of interactions as input, and output the final graph status after three sub-modules: (1) Interaction Encoder, (2) Dynamic Status Updater with Dual-state Integration, (3) Neighbor Propagator.](./Framework.png)
+![DISKRec](./Framework.png)
+Fig. (a) The overall architecture of DISKRec, which consists of two modules: Status Disentanglement using Dual-DGNNs, Status Integration and Recommendation. (b) The steps in Dual-DGNNs take the initial graph status and a batch of interactions as input, and output the final graph status after three sub-modules: (1) Interaction Encoder, (2) Dynamic Status Updater with Dual-state Integration, (3) Neighbor Propagator.
 
 ## Environments
 <ul>
